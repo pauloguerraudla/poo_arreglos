@@ -4,7 +4,10 @@ public class DispositivoSeguro {
     private int nivelRiesgo;
     private boolean activo;
 
-    public DispositivoSeguro(String nombre,String direccionIp,
+    public DispositivoSeguro() {
+    }
+
+    public DispositivoSeguro(String nombre, String direccionIp,
                              int nivelRiesgo, boolean activo){
       this.nombre=nombre;
       this.direccionIp=direccionIp;
